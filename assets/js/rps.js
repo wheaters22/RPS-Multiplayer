@@ -17,27 +17,24 @@ $(document).ready(function(){
     // Capture Button Click
     $("#rock-btn").on("click", function(event) {
       event.preventDefault();
-    var choice = $(this).attr('data-choice')
+      var choice = $(this).attr('data-choice')
       console.log(choice);
 
     }); 
     
     $("#paper-btn").on("click", function(event) {
       event.preventDefault();
-      console.log('hit paper button');
-
+      //console.log('hit paper button');
+      var choice = $(this).attr('data-choice')
+      console.log(choice);
 
     }); 
 
     $("#scissor-btn").on("click", function(event) {
-      event.preventDefault();
-      console.log('hit scissor button');
-
+      var choice = $(this).attr('data-choice')
+      console.log(choice);
 
     }); 
-
-
-
 
     // ADD USERS X2
 
